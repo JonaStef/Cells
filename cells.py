@@ -71,7 +71,7 @@ def image():
     if image.image_filename == '':
     	showerror('Cells', "Vous n'avez pas séléctionné d'Image")
     else:
-        showinfo('Cells', "L'Imge a été ajoutée avec succès!")
+        showinfo('Cells', "L'Image a été ajoutée avec succès!")
         main.button2.config(state=NORMAL)
         os.startfile(image.image_filename)
 
